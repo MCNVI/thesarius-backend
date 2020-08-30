@@ -6,7 +6,7 @@ spring:
     servlet:
       path: /api
   datasource:
-    url: jdbc:postgresql://localhost:15432/thesarius
+    url: jdbc:postgresql://thesarius_db/thesarius
     username: thesarius
     password: thesarius
     driver-class-name: org.postgresql.Driver
